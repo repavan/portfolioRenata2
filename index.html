@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renata Pavan de Souza - MSc. Zootecnista e estudante de programação</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">RPS</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Hey!</p>
+          <h1>Sou a Renata Pavan</h1>
+          <h2>Estudante de Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://github.com/repavan" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/renata-pavan-de-souza-5b6084117/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/44991016447" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./src/imagens/eu.PNG" alt="foto do perfil da Renata" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/horse.PNG" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p><strong>Hey, sup? Sou a Renata Pavan e sou uma desenvolvedora frontend em formação &#129299</strong></p>
+          <p>Sempre gostei de mexer em sistemas de computadores e entrei de cabeça nesse mundo!
+          </p>
+
+          <p>
+           Não, não sou aquela "nerd" padrão da área de T.I. &#128517 Sou "da roça", mestra em Zootecnia e, muito em breve, a melhor programadora que esse mundo já viu! Me desafio todos os dias para aprender tudo e mais um pouco! Estou fazendo um curso bem completo, realizando projetos e participando de comunidades. Logo logo, estarei afiada na área &#128170
+          </p>
+
+          <p>
+            Ah, gosto de filmes, séries, exercícios e, claro, vida no campo. 💜
+          </p>
+
+          <!-- <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>Loading . . .</p>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p></p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p></p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p></p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p></p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com/repavan/DEV-projeto-GTA.git" target="_blank">
+            <img src="./src/imagens/gta.PNG" alt="Projeto GTA" />
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">          
+              <p>Página de venda de jogos GTA (HTML + CSS + JS)</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com/repavan/exercicio-quest-html-css-avancado.git" target="_blank">
+            <img src="./src/imagens/huddle.PNG" alt="Huddle" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">          
+              <p>Página inicial do Huddle (HTML + CSS)</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com/repavan/exercicio-css-avancado-flexbox/tree/main/exercicio-cartao-de-perfil-2" target="_blank">
+            <img src="./src/imagens/cartao.PNG" alt="Cartão de perfil" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Um cartão de perfil do Instagram (HTML + CSS)</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com/repavan/css-avancado-com-grid-layout-youtube.git" target="_blank">
+            <img src="./src/imagens/youtube.PNG" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Um layout do YouTube (HTML + CSS)</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
